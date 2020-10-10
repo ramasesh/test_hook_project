@@ -1,2 +1,5 @@
 # Environments
 env/
+
+# Experiment configs
+experiment_configs/
