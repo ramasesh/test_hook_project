@@ -1,9 +1,9 @@
+#!env/bin/python3
 """Pre-build hook that checks that the repo is in an up-to-date state,
 and stores the commit hash in a file"""
 
 import os, sys
 from git import Repo
-
 
 def hook():
   print('Running git-cleanliness hook')
