@@ -1,0 +1,4 @@
+{
+    "pre-build-hook": "./hooks/pre_build.py"
+}
+
