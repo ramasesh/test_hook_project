@@ -1,4 +1,4 @@
 {
-    "pre-build-hook": "./hooks/pre_build.py"
+    "pre-build-hooks": ["./hooks/pre_build.py"]
 }
 
