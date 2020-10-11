@@ -26,7 +26,7 @@ def hook():
 
   # get commit hash
   commit_hash = repo.commit().hexsha
-  print("{'commit': %s}" % commit_hash)
+  print('{"commit": %s}' % commit_hash)
 
 if __name__=='__main__':
   hook()
