@@ -7,8 +7,8 @@ from git import Repo
 from absl import logging
 
 def hook():
-  print('Running git-cleanliness hook')
-  print('Running git-cleanliness hook 2')
+  logging.info('Running git-cleanliness hook')
+  logging.info('Running git-cleanliness hook 2')
 
   repo = Repo('.')
 
