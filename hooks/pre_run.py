@@ -14,8 +14,8 @@ def main(argv):
   FILE = '.container_info.json'
   with open(FILE, 'r') as f:
     data = json.load(f)
-
-  return {'commit': data[FLAGS.container_id]['commit']}
+  commit_hash = data[FLAGS.container_id]['commit']
+  print('{"commit": "%s"}' % commit_hash)
 
 if __name__ == '__main__':
   app.run(main)
