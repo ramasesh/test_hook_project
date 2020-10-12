@@ -3,3 +3,6 @@ env/
 
 # Experiment configs
 experiment_configs/
+
+.container_info.json
+
