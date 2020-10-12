@@ -1,5 +1,6 @@
 {
     "pre-build-hooks": ["./hooks/pre_build.py"],
+    "pre-run-hooks": ["./hooks/pre_run.py"],
     "container-labels": ".container_info.json"
 }
 
