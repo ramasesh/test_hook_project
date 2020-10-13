@@ -1,6 +1,5 @@
 {
     "pre-build-hooks": ["./hooks/git_commit_pre_build.py"],
-    "pre-run-hooks": ["./hooks/git_commit_pre_run.py"],
-    "container-labels": ".container_info.json"
+    "pre-run-hooks": ["./hooks/git_commit_pre_run.py"]
 }
 
