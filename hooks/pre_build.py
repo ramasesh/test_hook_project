@@ -1,4 +1,4 @@
-#!env/bin/python3
+#!/usr/bin/env python3
 """Pre-build hook that checks that the repo is in an up-to-date state,
 and stores the commit hash in a file"""
 

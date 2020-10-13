@@ -1,4 +1,4 @@
-#!env/bin/python3
+#!/usr/bin/env python3
 from absl import app
 from absl import flags
 import json
